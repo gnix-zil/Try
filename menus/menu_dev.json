@@ -1,0 +1,57 @@
+https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx67e2a9c6db384411&secret=45532c82d41da25433cdb492cef3cf6c
+
+https://api.weixin.qq.com/cgi-bin/menu/create?access_token=zBVIkuk59leYQa3QQZ8bEuoyu4QXSYIqCUZ1hOvZ2SJxKnypefuEjXGRyZEiBPqJqL4UM5TJ8UIC7QAIR3ru_cheCSx6MF9CPH8mNtAgrgcihGGNrkf5gL_ZcbHEq-MkZTDjAGARLV
+{
+    "button": [
+        {
+            "sub_button": [
+                {
+                    "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx67e2a9c6db384411&redirect_uri=http://d.fortrun.cn/wx/memberdeals?response_type=code&scope=snsapi_base&state=STATE#wechat_redirect",
+                    "type": "view",
+                    "name": "选房间"
+                },
+                {
+                    "url": "http://d.fortrun.cn/",
+                    "type": "view",
+                    "name": "办理入住"
+                },
+                {
+                    "url": "http://d.fortrun.cn/",
+                    "type": "view",
+                    "name": "申请退房"
+                }
+            ],
+            "name": "微前台"
+        },
+        {
+            "sub_button": [
+                {
+                    "url": "http://d.fortrun.cn/",
+                    "type": "view",
+                    "name": "订单"
+                },
+                {
+                    "url": "http://d.fortrun.cn/",
+                    "type": "view",
+                    "name": "发票"
+                }
+            ],
+            "name": "我的"
+        },
+        {
+            "sub_button": [
+                {
+                    "url": "http://www.sobot.com/chat/h5/index.html?sysNum=3bcb6e77990944c5ac33896c7b441306",
+                    "type": "view",
+                    "name": "客服"
+                },
+                {
+                    "url": "http://d.fortrun.cn/",
+                    "type": "view",
+                    "name": "关于"
+                }
+            ],
+            "name": "缦客"
+        }
+    ]
+}
